@@ -1,0 +1,58 @@
+body {
+    cursor: url('../imagens/smak-removebg-preview.png') auto;
+}
+
+.second{
+    color: red;
+    margin-bottom: 1rem;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url("../imagens/blocos.jpeg");
+
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    border:  5px solid gold;
+}
+
+
+.panel {
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square {
+     height: 150px;
+     width: 150px;
+     border: 1px solid gold;
+    background-color:#8b3327;
+    border-radius: 5px;
+}
+.enemy {
+    background-image: url("../imagens/detona-gil-removebg-preview.png");
+    background-size: cover;
+}
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square {
+    cursor: url('../imagens/smak.jpeg'), auto;
+
+}
